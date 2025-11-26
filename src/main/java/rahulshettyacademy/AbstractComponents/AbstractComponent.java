@@ -67,7 +67,7 @@ public class AbstractComponent {
 	}
 	
 	public void newMethod() {
-		
+		System.out.println("new change");
 	}
 
 }
