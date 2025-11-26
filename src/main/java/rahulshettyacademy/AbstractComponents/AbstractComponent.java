@@ -73,4 +73,8 @@ public class AbstractComponent {
 	public void yetAnotherNewMethod() {
 		System.out.println("more methods yay!!!");
 	}
+	
+	public void addingNewMethod() {
+		System.out.println("This is a new method that I added");
+	}
 }
