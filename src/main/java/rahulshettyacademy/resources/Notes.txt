@@ -1,0 +1,25 @@
+--to run a specific test you need to give the following command
+mvn test -P <profile-id>
+where <profile-id> should be changed to the value of the profile id in the pom.xml
+example:
+mvn test -P Regression
+
+--to run use a paramater in maven you can use the following command
+mvn test -D<variableName>=<variableValue>
+
+example:
+mvn test -Dbrowser=firefox
+--parameter -D is a maven parameter
+--your code will need to be able to receive the value for the given parameter in the command line
+--you can access the parameter in the java code, by using the System.getProperty
+
+
+To run the schedule of jenkins, replace
+* * * * *
+
+with the following
+1. MINUTES Minutes in one hour (0-59)
+2. HOURS Hours in one day (0-23)
+3. DAYMONTH Day in a month (1-31)
+4. MONTH Month in a year (1-12)
+5. DAYWEEK Day of the week (0-7) where 0 and 7 are sunday
