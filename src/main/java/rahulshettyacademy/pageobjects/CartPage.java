@@ -39,4 +39,8 @@ public class CartPage extends AbstractComponent {
 
 	}
 
+	
+	public void moreMethods() {
+		
+	}
 }

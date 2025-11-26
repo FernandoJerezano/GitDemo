@@ -24,6 +24,15 @@ public class ExtentReporterNG {
 	
 	public void newMethodOnOtherClass() {
 		System.out.println("New changes in another class");
-		
+		System.out.println("New changes in another class");
+		System.out.println("New changes in another class");
+		System.out.println("New changes in another class");
+	}
+	
+	public void AnothernewMethodOnOtherClass() {
+		System.out.println("bla bla bla bla");
+		System.out.println("bla bla bla bla");
+		System.out.println("bla bla bla bla");
+		System.out.println("bla bla bla bla");
 	}
 }
