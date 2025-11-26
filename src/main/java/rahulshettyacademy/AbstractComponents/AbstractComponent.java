@@ -65,5 +65,9 @@ public class AbstractComponent {
 //		wait.until(ExpectedConditions.invisibilityOf(ele));
 
 	}
+	
+	public void newMethod() {
+		
+	}
 
 }
